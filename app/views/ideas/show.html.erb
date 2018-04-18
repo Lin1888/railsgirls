@@ -5,20 +5,6 @@
     <%= image_tag(@idea.picture_url, width: '100%') if @idea.picture.present? %>
   </div>
 
-<<<<<<< HEAD
-<p>
-  <strong>Description:</strong>
-  <%= @idea.description %>
-</p>
-
-<p>
-  <strong>Picture:</strong>
-  <%= image_tag(@idea.picture_url, width: 600) if @idea.picture.present? %>
-</p>
-
-<%= link_to 'Edit', edit_idea_path(@idea) %> |
-<%= link_to 'Back', ideas_path %>
-=======
   <div class="col-md-3">
     <p><b>Name: </b><%= @idea.name %></p>
     <p><b>Description: </b><%= @idea.description %></p>
@@ -29,4 +15,3 @@
     </p>
   </div>
 </div>
->>>>>>> 575574b53296eb76e44443eb98c8a3273e133ba8
